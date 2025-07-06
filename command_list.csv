@@ -1,6 +1,6 @@
-    1  ÑcdC:\Users\ssenb\test
-    2  cd   \Users\ssenb\test
-    3  cd /c/Users/ssenb/test
+    1  Ã‘cdC:\Users\ssenb\HW_10
+    2  cd   \Users\ssenb\HW_10
+    3  cd /c/Users/ssenb/HW_10
     4  touch text_ignore.txt
     5  echo text_ignore.txt >> .gitignore
     6  git add .
