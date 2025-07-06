@@ -1,4 +1,4 @@
-1  git clone https://github.com/ваш_логін/HW_10.git
+1  git clone https://github.com/ssenbanzakura/HW_10.git
 2  cd HW_10
 3  touch text_ignore.txt
 4  echo text_ignore.txt >> .gitignore
