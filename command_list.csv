@@ -1,25 +1,23 @@
-    1  ÑcdC:\Users\ssenb\HW_10
-    2  cd   \Users\ssenb\HW_10
-    3  cd /c/Users/ssenb/HW_10
-    4  touch text_ignore.txt
-    5  echo text_ignore.txt >> .gitignore
-    6  git add .
-    7  git commit -m "Added .gitignore and text_ignore.txt"
-    8  git config --global user.name "ssenbanzakura"
-    9  git config --global user.email "ssenbanzakura@gmail.com"
-   10  git commit -m "Added .gitignore and text_ignore.txt"
-   11  touch main_test.txt
-   12  git add .
-   13  git commit -m "Added main_test.txt"
-   14  git checkout -b develop
-   15  touch develop_test.txt
-   16  git add .
-   17  git commit -m "Added develop_test.txt"
-   18  echo "just a small change" >> develop_test.txt
-   19  git status
-   20  git add .
-   21  git commit -m "Updated develop_test.txt"
-   22  git checkout main
-   23  git merge develop
-   24  git log --oneline --graph --all
-   25  history > command_list.csv
+1  git clone https://github.com/ваш_логін/HW_10.git
+2  cd HW_10
+3  touch text_ignore.txt
+4  echo text_ignore.txt >> .gitignore
+5  git add .
+6  git commit -m "Added .gitignore and text_ignore.txt"
+7  git config --global user.name "ssenbanzakura"
+8  git config --global user.email "ssenbanzakura@gmail.com"
+9  touch main_test.txt
+10 git add .
+11 git commit -m "Added main_test.txt"
+12 git checkout -b develop
+13 touch develop_test.txt
+14 git add .
+15 git commit -m "Added develop_test.txt"
+16 echo "just a small change" >> develop_test.txt
+17 git status
+18 git add .
+19 git commit -m "Updated develop_test.txt"
+20 git checkout main
+21 git merge develop
+22 git log --oneline --graph --all
+23 history > command_list.csv
